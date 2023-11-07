@@ -24,15 +24,23 @@ staticRedirects:
     status: 200
   -
     from: /redir-1
-    to: /bleu-redirect
+    to: /redir-5
     status: 302
   -
     from: /redir-2
     to: /redir-1
-    status: 307
+    status: 200
   -
     from: /redir-3
     to: /redir-2
+    status: 308
+  -
+    from: /redir-4
+    to: /redir-3
+    status: 200
+  -
+    from: /redir-5
+    to: /redir-4
     status: 308
 # adds authentication to your site. Commented out as a policy with the name auth02 must exist
 # authentication:
