@@ -29,7 +29,7 @@ staticRedirects:
   -
     from: /redir-2
     to: /redir-1
-    status: 305
+    status: 307
   -
     from: /redir-3
     to: /redir-2
