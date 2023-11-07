@@ -17,10 +17,22 @@ staticRedirects:
   -
     from: /grey-redirect
     to: /gray
-    status: 302
+    status: 308
   -
     from: /bleu-redirect
     to: /blue
+    status: 308
+  -
+    from: /redir-1
+    to: /bleu-redirect
+    status: 308
+  -
+    from: /redir-2
+    to: /redir-1
+    status: 308
+  -
+    from: /redir-3
+    to: /redir-2
     status: 308
 # adds authentication to your site. Commented out as a policy with the name auth02 must exist
 # authentication:
