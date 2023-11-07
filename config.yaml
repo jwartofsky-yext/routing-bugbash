@@ -21,15 +21,15 @@ staticRedirects:
   -
     from: /bleu-redirect
     to: /blue
-    status: 308
+    status: 200
   -
     from: /redir-1
     to: /bleu-redirect
-    status: 308
+    status: 302
   -
     from: /redir-2
     to: /redir-1
-    status: 308
+    status: 305
   -
     from: /redir-3
     to: /redir-2
